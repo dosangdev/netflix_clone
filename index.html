@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>넷플릭스</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/video.css" />
+  </head>
+  <body>
+    <div class="content__wrapper">
+      <header>
+        <div class="header__wrapper">
+          <div class="header__left__section">
+            <img
+              class="header__logo"
+              src="assets/images/pngegg.png"
+              alt="logo"
+            />
+            <nav class="header__left__section__nav">
+              <ul>
+                <li><a class="header__left__nav__item home" href="#">홈</a></li>
+                <li>
+                  <a class="header__left__nav__item series" href="#">시리즈</a>
+                </li>
+                <li>
+                  <a class="header__left__nav__item movie" href="#">영화</a>
+                </li>
+                <li>
+                  <a class="header__left__nav__item hot-content" href="#"
+                    >NEW! 요즘 대세 콘텐츠</a
+                  >
+                </li>
+                <li>
+                  <a class="header__left__nav__item wish-list" href="#"
+                    >내가 찜한 리스트</a
+                  >
+                </li>
+                <li>
+                  <a class="header__left__nav__item language-search" href="#"
+                    >언어별로 찾아보기</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <nav class="header__right__section">
+            <button class="nav-element header__search">
+              <img src="assets/icons/search.svg" alt="search" />
+            </button>
+            <button class="nav-element show-kid">키즈</button>
+            <button class="nav-element header__right__section__notifications">
+              <img src="assets/icons/notifications.svg" alt="notifications" />
+            </button>
+            <div class="arrow-rotate">
+              <button class="nav-element header__user__picture">
+                <img
+                  src="assets/images/nexflix_profile_20220923_201451298_02.jpeg"
+                  alt="user profile picture"
+                />
+                <span class="arrow-under"></span>
+              </button>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="main__title__wrapper">
+        <div class="main__title__left__wrapper">
+          <img
+            class="main__title__logo"
+            src="https://occ-0-993-2218.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABRlMRcOpS6dya3_HghjNc291V5L78s7USNUGhlLBGiaPkyv_YNjG5TuZ5-YMF_Uqxzn9epZtVnMnO1PnbRr-ttC9MZTdd599HESoNg8iTqXN.webp?r=116"
+            alt="title logo"
+          />
+          <div class="main__title__info">
+            인간의 탈을 쓴 식인 괴물 구울이 도쿄를 휩쓸고 있다! 인간이었다가
+            구을의 몸으로 살아가게된 가네키 겐. 그에게 이 지독히 모순적인 세계는
+            어떤 삶을 준비해 두었는가.
+          </div>
+          <div class="main__title__btn__wrapper">
+            <button class="play__btn">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="ltr-4z3qvp e1svuwfo1"
+                data-name="Play"
+                aria-hidden="true"
+              >
+                <path
+                  d="M5 2.69127C5 1.93067 5.81547 1.44851 6.48192 1.81506L23.4069 11.1238C24.0977 11.5037 24.0977 12.4963 23.4069 12.8762L6.48192 22.1849C5.81546 22.5515 5 22.0693 5 21.3087V2.69127Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <span>재생</span>
+            </button>
+            <button class="more__info">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="ltr-4z3qvp e1svuwfo1"
+                data-name="CircleI"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12ZM13 10V18H11V10H13ZM12 8.5C12.8284 8.5 13.5 7.82843 13.5 7C13.5 6.17157 12.8284 5.5 12 5.5C11.1716 5.5 10.5 6.17157 10.5 7C10.5 7.82843 11.1716 8.5 12 8.5Z"
+                  fill="currentColor"
+                ></path></svg
+              ><span>상세 정보</span>
+            </button>
+          </div>
+        </div>
+        <!-- <div class="main__title__right__wrapper">
+            <div></div>
+        </div> -->
+      </div>
+    </div>
+    <div>
+      <div class="video__content__wrapper">
+        <div class="video__content__title">
+          지금 뜨는 콘텐츠 <span>모두 보기</span
+          ><span class="video__arrow__right"></span>
+        </div>
+        <div></div>
+      </div>
+    </div>
+  </body>
+</html>
