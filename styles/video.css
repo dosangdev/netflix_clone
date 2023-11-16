@@ -59,6 +59,7 @@
   overflow-x: auto;
   scroll-behavior: smooth;
   margin-top: 13px;
+  height: 300px;
 }
 
 .video__content::-webkit-scrollbar {
@@ -76,9 +77,12 @@
 
 .video__content__item:hover {
   transform: scale(1.5, 1.5);
+  z-index: 44;
 }
 
 .video__content__item__img {
+  margin-top: 30px;
+  display: inline-block;
   width: 100%;
   height: 100%;
   object-fit: cover;
