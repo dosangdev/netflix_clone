@@ -146,7 +146,7 @@ body {
       rgba(20, 20, 20, 1) 100%
     ),
     url("https://occ-0-993-2218.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABRB8wiQJXy6Ecwac6ye3koG50Hx36a5ljm_e6o4BXnl_becinwzUH9HZvVWYRHpeRAdPLZcYkYlVI0KxHi7rzQoJTpoV2H_9BHts.webp?r=6df");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .content__wrapper::after {
